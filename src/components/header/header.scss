@@ -1,0 +1,56 @@
+#header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #0f0f0f;
+
+    padding: 15px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        cursor: pointer;
+        img {
+            width: 30px;
+        }
+        span {
+            font-size: 24px;
+        }
+    }
+    &__form {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        max-width: 600px;
+        border: 1px solid #222222;
+        border-radius: 30px;
+        background: #141414;
+        overflow: hidden;
+        input {
+            padding: 10px 20px;
+            flex: 1;
+            font-size: 16px;
+            color: #fff;
+        }
+        label {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #222222;
+        }
+    }
+    &__icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        svg {
+            font-size: 24px;
+        }
+    }
+}

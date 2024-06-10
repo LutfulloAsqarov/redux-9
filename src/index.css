@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+    outline: none;
+}
+
+button,
+input {
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+body {
+    background: #0f0f0f;
+}
